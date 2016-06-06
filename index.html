@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<title>History</title>
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+		
+
+    </head>
+    <body>
+		<div class = container>
+			<header>	
+				<div class="hero-text-box">
+					<h1>An Interactive <br> Experience of the <br> History of Al Zubarah.</h1>
+                	<a class="btn btn-full" href="#scrollhere">Jump to the map</a>
+				</div>
+			</header>
+			
+					<div class="map">
+						<a id = "scrollhere"></a>
+					</div>
+
+			<footer>
+				<div class="row">
+					<div class="col span-1-of-2">
+						<ul class="footer-nav">
+							<li><a href="#">About us</a></li>
+						</ul>
+					</div>
+					<div class="col span-1-of-2">
+						<ul class="social-links">
+							<li><a href="#"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter"></i></a></li>
+							<li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<p>
+						Copyright &copy; 2016 by Qatar Foundation. All rights reserved.
+					</p>
+				</div>
+			</footer>
+		</div>
+        
+
+    
+    </body>  
+    
+</html>
+
+<script>
+
+	$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;	
+});
+</script>
+	
