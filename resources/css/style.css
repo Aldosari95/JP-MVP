@@ -1,6 +1,46 @@
 /*
 Orange color: #e67e22
 */
+/*------- Overlay -------*/
+
+.fademe {
+	display: none;
+    background-color:#000; 
+    width:100%; 
+    height:100%; 
+    z-index:10;
+    top:0; 
+    left:0; 
+    position:fixed
+  }
+
+.square {
+  display: none;
+  position: relative;
+  width: 70%;
+  height: 80%;
+  border-style: solid;
+  border-color: #e67e22;
+  z-index: 11;
+  margin: auto;
+  top: 10vh;
+  
+
+}
+
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+	
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 
 
 /* ----------------------------------------------- */
@@ -338,13 +378,74 @@ footer {
     color: #dd4b39;
 }
 
-.ion-social-instagram:hover {
+instagram:hover {
     color: #517fa4;
 }
-
 
 footer p {
     color: #888;
     text-align: center;
     margin-top: 20px;
 }
+
+/* ----------------------------------------------- */
+/* Slider */
+/* ----------------------------------------------- */
+
+.ion-social-/* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div { background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+        .jssorb01 .av { background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 5px;
+            height: 5px;
+            cursor: pointer;
+            background: url('resources/img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+
+
+
+
+
