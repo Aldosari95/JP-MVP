@@ -91,6 +91,11 @@ h2:after {
     margin-top: 30px;
 }
 
+/* ----- intro ----- */
+
+#intro {
+	text-align: justify;
+}
 
 /* ----- BUTTONS ----- */
 .btn:link,
