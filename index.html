@@ -117,8 +117,9 @@
 	  return false;
   });
 	
-	  $("#fademe").click(function(){
-	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+	  $(".fademe").click(function(){
+	  $(".fademe").fadeOut().css('display', 'none');
+	  $(".square").fadeOut().css('display', 'none');
 	  return false;
   });
 		    
