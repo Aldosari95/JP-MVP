@@ -105,3 +105,85 @@ Fading markers
 						<a id="clicker7" href="#"></a>
 					</div>
 -->
+
+/*
+.clickcontainer { 
+	width:200px; 
+	height:100px; 
+	position:relative;
+}
+
+
+#clicker1 {
+	background-color: aqua;
+	display:block; 
+	width:100px; 
+	height:50px; 
+	position:absolute; 
+	top:562px; 
+	left:850px; 
+}
+
+#clicker2 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:462px; 
+	left:376px; 
+}
+
+#clicker3 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:140px; 
+	left:110px; 
+}
+
+#clicker4 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:40px; 
+	left:135px; 
+}
+
+#clicker5 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:15px; 
+	left:135px; 
+}
+
+#clicker5 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:-100px; 
+	left:90px; 
+}
+
+#clicker6 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:-110px; 
+	left:130px; 
+}
+
+#clicker7 { 
+	display:block; 
+	width:30px; 
+	height:50px; 
+	position:absolute; 
+	top:-45px; 
+	left:280px; 
+}
+*/
