@@ -1,0 +1,107 @@
+Info
+
+//	  $("#clicker2").click(function(){
+//	  $(".square").css('display', 'block');
+//	  return false;
+//
+//  });
+//	
+//	  $("#clicker3").click(function(){
+//	  $(".square").css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker4").click(function(){
+//	  $(".square").css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker5").click(function(){
+//	  $(".square").css('display', 'block');
+//	  return false;	  
+//  });
+//	
+//	
+//	  $("#clicker6").click(function(){
+//	  $(".square").css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker7").click(function(){
+//	  $(".square-box").css('display', 'block');
+//	  return false;
+//	
+//  });
+
+Fading
+
+//	  $("#clicker2").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;
+//
+//  });
+//	
+//	  $("#clicker3").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker4").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker5").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;	  
+//  });
+//	
+//	
+//	  $("#clicker6").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;
+//  });
+//	
+//	
+//	  $("#clicker7").click(function(){
+//	  $(".fademe").animate({opacity:0.8}).css('display', 'block');
+//	  return false;
+//  });
+
+
+Fading markers
+
+<!--
+					<div class="clickcontainer">
+						<a id="clicker1" href="#"></a>
+					</div>
+						
+					<div class="clickcontainer">
+						<a id="clicker2" href="#"></a>
+					</div>
+
+					<div class="clickcontainer">
+						<a id="clicker3" href="#"></a>
+					</div>
+
+					<div class="clickcontainer">
+						<a id="clicker4" href="#"></a>
+					</div>
+
+					<div class="clickcontainer">
+						<a id="clicker5" href="#"></a>
+					</div>
+
+					<div class="clickcontainer">
+						<a id="clicker6" href="#"></a>
+					</div>
+
+					<div class="clickcontainer">
+						<a id="clicker7" href="#"></a>
+					</div>
+-->
