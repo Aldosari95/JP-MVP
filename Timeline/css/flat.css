@@ -30,7 +30,7 @@
 
 .timelineFlat.timelineFlatBlog .item .post_date {
 	font-family: Montserrat;
-	background: #5483ed;
+	background: #e67e22;
 	color: #ffffff;
 	border-radius: 50%;
 	width: 35px;
@@ -138,10 +138,10 @@
 	top: 23px;
 	left: 50%;
 	margin: 0 0 0 -7px;
-	background:#5483ed;
+	background:#e67e22;
 }
 .timelineFlat a.t_line_node.active {
-	color:#5483ed;
+	color:#e67e22;
 }
 
 .timelineFlat a.t_line_node.active:after {
@@ -177,7 +177,7 @@
 	display: block !important;
 	padding:8px;
 	border-radius: 3px;
-	background: #5483ed;
+	background: #e67e22;
 	position: relative;
 }
 .timelineFlat .t_node_desc span:after {
@@ -188,7 +188,7 @@
 	position: absolute;
 	bottom: -10px;
 	border:5px solid transparent;
-	border-top:5px solid #5483ed;
+	border-top:5px solid #e67e22;
 	left:50%;
 	margin-left: -5px;
 }
@@ -214,7 +214,7 @@
 
 .timelineFlat #t_line_left:hover,
 .timelineFlat #t_line_right:hover {
-	color: #5483ed;
+	color: #e67e22;
 }
 
 /* line arrow left */
@@ -269,7 +269,7 @@
 	content: "";
 	position: absolute;
 	height: 4px;
-	background: #5483ed;
+	background: #e67e22;
 	width: 100%;
 	z-index: 2;
 	top:0;
@@ -285,7 +285,7 @@
 	left:50%;
 	margin: 4px 0 0 -6px;
 	border: 6px solid transparent;
-	border-top: 6px solid #5483ed;
+	border-top: 6px solid #e67e22;
 	
 }
 /* ----- content - non-plugin elements ----- */
@@ -300,7 +300,7 @@
 	margin: 0;
 	font-size:12px;
 	line-height:12px;
-	color: #5483ed;
+	color: #e67e22;
 	
 }
 .timelineFlat .item span{
@@ -318,13 +318,13 @@
 	cursor:pointer;
 	margin: 0 20px 20px;
 	border-radius: 3px;
-	background:#5483ed;
+	background:#e67e22;
 	transition:background-color 300ms;
 	-webkit-transition: background-color 300ms;
 	-moz-transition: background-color 300ms;
 }
 .timelineFlat .item .read_more:hover {
-	background:#f75f5f;
+	background:#e2e36b;
 }
 /* ----------------------------------------- */
 
@@ -345,7 +345,7 @@
 	padding-top:0;
 	font-size:12px;
 	line-height:12px;
-	color: #5483ed;
+	color: #e67e22;
 }
 
 /* item details content wrapper (used for animation - shuld have same width as .item_open) */
@@ -376,7 +376,7 @@
 	margin-right: 16px;
 }
 .timelineFlat .mCS-light-thin > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar  {
-	background: #5483ed;
+	background: #e67e22;
 }
 .timelineFlat .mCS-light-thin > .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
 	color:#f75f5f;
@@ -396,7 +396,7 @@
 	height: 12px;
 	font-size:16px;
 	line-height: 12px;
-	color: #5483ed;
+	color: #e67e22;
 	cursor:pointer;
 	z-index:2;
 	text-align: center;
