@@ -258,7 +258,7 @@
 /* single item (margines set from javascript) */
 .timelineFlat .item {
 	width:410px;
-	height:410px;
+	height:86vh;
 	background:#eaeaea; 
 	color:#777777;
 	font-size:14px;
@@ -522,6 +522,7 @@
 @media screen and (max-width:609px) {
 	.timelineFlat .timeline_line {
 		width:240px;
+		height: 75px;
 	}
 	
 	.timelineFlat .t_line_view {
@@ -538,7 +539,7 @@
 	
 	.timelineFlat .item_open {
 		width:280px;
-		height:390px;
+		height:86vh;;
 	}
 	.timelineFlat .item_open img {
 		max-width:280px;
