@@ -257,8 +257,8 @@
 
 /* single item (margines set from javascript) */
 .timelineFlat .item {
-	width:410px;
-	height:86vh;
+	width:350px;
+	height:410px;
 	background:#eaeaea; 
 	color:#777777;
 	font-size:14px;
@@ -324,7 +324,7 @@
 	-moz-transition: background-color 300ms;
 }
 .timelineFlat .item .read_more:hover {
-	background:#e2e36b;
+	background:#e6a871;
 }
 /* ----------------------------------------- */
 
@@ -539,7 +539,6 @@
 	
 	.timelineFlat .item_open {
 		width:280px;
-		height:86vh;;
 	}
 	.timelineFlat .item_open img {
 		max-width:280px;
