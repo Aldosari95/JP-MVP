@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>jQuery Timeline plugin</title>
+<title>Timeline</title>
 <meta name="description" content="Content Timeline HTML5/jQuery plugin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,6 +10,10 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
 <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.20.0/mapbox-gl.js'></script>
+<link href="css/mapbox-gl.css" rel='stylesheet' />
+
+
 
 <!--[if lt IE 9]>
 <link href="css/ie8fix.css" rel="stylesheet" type="text/css" />
@@ -26,6 +30,10 @@
 
 </head>
 <body>
+	
+	 <div id="map-container">
+      <div id="map"></div>
+    </div>
 
 
 <script type="text/javascript">
@@ -170,8 +178,23 @@ $(window).load(function() {
 				<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
 			</div>
 		</div>
-
 </div> <!-- /END TIMELINE -->
 
+		
 </body>
 </html>
+
+	<style>
+        #map { height: 250px}
+    </style>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYWxkb3NhcmkiLCJhIjoiY2lvcHJ2eWQ1MDA3NnZnbTNmcmV1eWZteCJ9.5nDXhAIosq34uDlpGbyKzQ';
+	var map = new mapboxgl.Map({
+		container: 'map', // container id
+		style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
+		center: [50, 27.25], // starting position
+		zoom: 6.5 // starting zoom
+	});
+	console.log(map);
+</script>
