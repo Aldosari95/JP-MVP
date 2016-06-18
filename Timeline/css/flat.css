@@ -8,23 +8,41 @@
 
 /*------Map------*/
 
-#map {
-	display: none;
-	height: 250px;
-}
-
-.mapboxgl-canvas {
-	position: fixed !important;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
-
 .timelineFlat {
 	position: fixed !important;
+	visibility: visible;
 	top: 0;
 	left: 0;
 }
+
+#close {
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
+	top: 5px;
+	left: 5px;	
+}
+
+#close1 {
+	z-index: 2;
+	visibility: hidden;
+	position: fixed;
+	top: 5px;
+	left: 5px;	
+}
+
+/*1700*/
+.map {
+/*	visibility: hidden;*/
+	height: 736px;
+}
+
+.map1 {
+/*	visibility: hidden;*/
+	height: 736px;
+}
+
+
 /* -----------------------------------
  TIMELINE FLAT PORTFOLIO 
  ---------------------------------- */
