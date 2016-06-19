@@ -85,10 +85,26 @@
     margin-top: 15px;
     float: right;
 }
-#GoToTimeline {
-    position: absolute;
-    left: 30%;;
-    top: 80%;
+@media screen and (min-width: 400px) {
+    #GoToTimeline {
+        position: absolute;
+        left: 30%;
+        top: 80%;
+    }
+}
+@media screen and (min-width: 360px) {
+    #GoToTimeline {
+        position: absolute;
+        left: 27%;
+        top: 80%;
+    }
+}
+@media screen and (min-width: 300px) {
+    #GoToTimeline {
+        position: absolute;
+        left: 23%;
+        top: 80%;
+    }
 }
 /* ----------------------------------------------- */
 /* BASIC SETUP */

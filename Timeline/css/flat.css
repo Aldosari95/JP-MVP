@@ -19,35 +19,75 @@
 	z-index: 2;
 	visibility: hidden;
 	position: fixed;
-	top: 5px;
-	left: 5px;	
+	top: 7px;
+	left: 15px;	
 }
 
 #close1 {
 	z-index: 2;
 	visibility: hidden;
 	position: fixed;
-	top: 5px;
-	left: 5px;	
+	top: 7px;
+	left: 15px;	
 }
 
-/*1700*/
-.map {
-/*	visibility: hidden;*/
-	height: 736px;
+@media screen and (min-width: 400px) {
+	#animated_map_1{
+		height: 730px;
+		width: 400px;
+	}
+	
+	#animated_map_2{
+		height: 730px;
+		width: 400px;
+	}
 }
 
-.map1 {
-/*	visibility: hidden;*/
-	height: 736px;
+@media screen and (max-width: 375px) {
+		#animated_map_1{
+		height: 660px;
+		width: 375px;
+	}
+	
+	#animated_map_2{
+		height: 660px;
+		width: 375px;
+	}
+
 }
+
+@media screen and (max-width: 360px) {
+		#animated_map_1{
+		height: 630px;
+		width: 360px;
+	}
+	
+	#animated_map_2{
+		height: 630px;
+		width: 360px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+		#animated_map_1{
+		height: 560px;
+		width: 320px;
+	}
+	
+	#animated_map_2{
+		height: 560px;
+		width: 320px;
+	}
+}
+
 
 
 /* -----------------------------------
  TIMELINE FLAT PORTFOLIO 
  ---------------------------------- */
 
-.timelineFlat.timelineFlatPortfolio .item .read_more {
+.timelineFlat.timelineFlatPortfolio .item /*.read_more*/ {
 	margin-top:20px;
 }
 
@@ -292,15 +332,91 @@
 }
 
 /* single item (margines set from javascript) */
-.timelineFlat .item {
-	width:350px;
-	height:410px;
-	background:#eaeaea; 
-	color:#777777;
-	font-size:14px;
-	line-height:14px;
-	position: relative;
+
+@media screen and (min-width: 400px) {
+	.timelineFlat .item {
+		width:350px;
+		height:635px;
+		background:#eaeaea; 
+		color:#777777;
+		font-size:14px;
+		line-height:14px;
+		position: relative;
+	}
+	
+	#Showmap1 {
+		margin-top: 32px;
+	}
+	
+	#readmore {
+		margin-top: 32px;
+	}
 }
+
+@media screen and (max-width: 375px) {
+	.timelineFlat .item {
+		width:350px;
+		height:565px;
+		background:#eaeaea; 
+		color:#777777;
+		font-size:14px;
+		line-height:14px;
+		position: relative;
+	}
+	
+	#Showmap1 {
+		margin-top: 32px;
+	}
+	
+	#readmore {
+		margin-top: 32px;
+	}
+
+}
+
+@media screen and (max-width: 360px) {
+	.timelineFlat .item {
+		width:350px;
+		height:565px;
+		background:#eaeaea; 
+		color:#777777;
+		font-size:14px;
+		line-height:14px;
+		position: relative;
+	}
+	
+	#Showmap1 {
+		margin-top: 32px;
+	}
+	
+	#readmore {
+		margin-top: 32px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.timelineFlat .item {
+		width:300px;
+		height:450px;
+		background:#eaeaea; 
+		color:#777777;
+		font-size:14px;
+		line-height:14px;
+		position: relative;
+	}
+	
+	#Showmap1 {
+		margin-top: 32px;
+	}
+	
+	#readmore {
+		margin-top: 32px;
+	}
+}
+
+
+
 .timelineFlat .item.item_node_hover:before {
 	content: "";
 	position: absolute;
